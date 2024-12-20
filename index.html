@@ -26,7 +26,7 @@
     align-items: center;
     padding: 1em 2em;
     z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4);
 }
 
 .navbar a {
@@ -130,13 +130,11 @@ footer a:hover {
         </div>
     </nav>
 
-    <!-- Home Section -->
     <section id="home" class="content">
         <h1>Welcome to the Weather Dashboard</h1>
-        <p>Get real-time weather updates for your city.</p>
+        <p>Get Real Time weather updates for your entered city.</p>
     </section>
 
-    <!-- Weather Section -->
     <section id="weather" class="content">
         <h2>Weather Details</h2>
         <div id="weather-info">
@@ -144,14 +142,12 @@ footer a:hover {
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="content">
-        <h2>About This App</h2>
-        <p>This weather dashboard is built to provide real-time weather updates, powered by OpenWeather API.</p>
+        <h2>About This Website</h2>
+        <p>The purpose of this weather dashboard is to provide real-time weather updates, using the website OpenWeather.</p>
         <img src="image3.jpeg" alt="Weather Icon" width="100">
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>Follow us on:</p>
         <a href="https://github.com" target="_blank">GitHub</a>
@@ -162,7 +158,7 @@ footer a:hover {
     </footer>
 </body></html>
     <script>
-    const apiKey = "21fc5fab2a15af1d1ce771f3b794842a"; // Replace with your OpenWeather API key
+    const apiKey = "21fc5fab2a15af1d1ce771f3b794842a"; //
 
 document.getElementById("search-button").addEventListener("click", function () {
     const city = document.getElementById("city-input").value.trim();
